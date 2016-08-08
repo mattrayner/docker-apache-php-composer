@@ -1,0 +1,12 @@
+{
+    "name": "mattrayner/concrete-docker-test",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Matthew Rayner"
+        }
+    ],
+    "require": {
+        "concrete5/concrete5": "dev-develop"
+    }
+}

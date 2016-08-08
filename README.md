@@ -56,3 +56,6 @@ Based on what i've learned from this:
 - [webdevops/php-boilerplate](https://hub.docker.com/r/webdevops/php-boilerplate/~/dockerfile/)
 - [Dan Pupius@Medium:Apache and PHP on Docker](https://medium.com/dev-tricks/apache-and-php-on-docker-44faef716150#.5bz3h5mgy)
 - [Yunes Rafie@sitepoint:Docker and Dockerfiles Made Easy!](http://www.sitepoint.com/docker-and-dockerfiles-made-easy/)
+
+# TEST COMMAND
+`docker run -v `pwd`/test:/var/concrete5-test -it my-php-app /bin/bash -c 'cd /var/concrete5-test && composer install'`
